@@ -16,8 +16,8 @@ function buildMetadata(sample) {
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
         // Not today, y'all, sowwy
-})
-
+});
+}
 function buildCharts(sample) {
 
   // @TODO: Use `d3.json` to fetch the sample data for the plots
@@ -78,14 +78,13 @@ function init() {
     buildCharts(firstSample);
     buildMetadata(firstSample);
   });
-}
+};
 
 function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildCharts(newSample);
   buildMetadata(newSample);
-}
+};
 
 // Initialize the dashboard
 init();
-}
