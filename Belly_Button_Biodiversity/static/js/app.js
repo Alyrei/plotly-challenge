@@ -16,7 +16,7 @@ function buildMetadata(sample) {
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
         // Not today, y'all, sowwy
-}
+})
 
 function buildCharts(sample) {
 
@@ -88,3 +88,4 @@ function optionChanged(newSample) {
 
 // Initialize the dashboard
 init();
+}
